@@ -1,7 +1,6 @@
 package com.gqt.corejava.p;
 import java.util.Scanner;
 public class Pattern18 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
@@ -13,10 +12,8 @@ public class Pattern18 {
 				System.out.print("* ");
 			}
 			n1=n1-1;
-			System.out.println();
-			
+			System.out.println();	
 		}
 		sc.close();
 	}
-
 }
