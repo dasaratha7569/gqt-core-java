@@ -4,7 +4,6 @@ import java.util.Scanner;
 class collegeData {
 	String arr[][][][]; // [college][dept][classroom][students]
 	Scanner sc = new Scanner(System.in);
-
 	int dept1Total = 0;
 	int dept2Total = 0;
 	int dept3Total = 0;
@@ -45,37 +44,37 @@ class collegeData {
 		System.out.println("----------------------------------------");
 	}
 
-//	void collectNames() {
-//		for (int i = 0; i < arr.length; i++) {
-//            System.out.println("Inside college no: " + (i+1));
-//            for (int j = 0; j < arr[i].length; j++) {
-//                System.out.println("inside dept no " + (j+1) + ": ");
-//                for(int k=0;k<arr[i][j].length;k++) {
-//                	System.out.println("Inside classroom no "+ (k+1) +": ");
-//                	for(int m=0;m<arr[i][j][k].length;m++) {
-//                		System.out.print("Enter the name of the student no :"+(m+1)+" is: ");
-//                		arr[i][j][k][m]=sc.nextLine();
-//                	}
-//                }
-//            }
-//        }
-//        System.out.println("Data Collected");
-//        System.out.println("-------------------");
-//	}
+	void collectNames() {
+		for (int i = 0; i < arr.length; i++) {
+            System.out.println("Inside college no: " + (i+1));
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println("inside dept no " + (j+1) + ": ");
+                for(int k=0;k<arr[i][j].length;k++) {
+                	System.out.println("Inside classroom no "+ (k+1) +": ");
+                	for(int m=0;m<arr[i][j][k].length;m++) {
+                		System.out.print("Enter the name of the student no :"+(m+1)+" is: ");
+                		arr[i][j][k][m]=sc.nextLine();
+                	}
+                }
+            }
+        }
+        System.out.println("Data Collected");
+        System.out.println("-------------------");
+	}
 
 	void displayData() {
-//		for (int i = 0; i < arr.length; i++) {
-//			System.out.println("Inside college no: " + (i+1));
-//			for (int j = 0; j < arr[i].length; j++) {
-//				System.out.println("Inside dept no: " + (j+1));
-//				for(int k=0;k<arr[i][j].length;k++) {
-//					System.out.println( "insdie collge no: "+ (k+1));
-//					for(int m=0;m<arr[i][j][k].length;m++) {
-//						System.out.print("the name of the student no :"+(m+1)+" is: "+arr[i][j][k][m]);
-//					}
-//				}
-//			}
-//		}
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println("Inside college no: " + (i+1));
+			for (int j = 0; j < arr[i].length; j++) {
+				System.out.println("Inside dept no: " + (j+1));
+				for(int k=0;k<arr[i][j].length;k++) {
+					System.out.println( "insdie collge no: "+ (k+1));
+					for(int m=0;m<arr[i][j][k].length;m++) {
+						System.out.print("the name of the student no :"+(m+1)+" is: "+arr[i][j][k][m]);
+					}
+				}
+			}
+		}
 
 		System.out.println("-------------------------------------");
 		System.out.println("Total students in Dept 1 across all colleges: " + dept1Total);

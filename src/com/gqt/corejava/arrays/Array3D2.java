@@ -58,7 +58,6 @@ class ArrayOp3 {
 	    }
 }
 public class Array3D2 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ArrayOp3 s1=new ArrayOp3();
