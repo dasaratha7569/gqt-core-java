@@ -50,7 +50,7 @@ public class BuiltInMethodsMutable {
 		System.out.println(sb.getClass());
 		
 		//9.reverse()
-		System.out.println(sb.reverse());
+//		System.out.println(sb.reverse());
 		
 		//10.substring(int start,int end)
 		System.out.println(sb.substring(6, 12));
@@ -58,6 +58,15 @@ public class BuiltInMethodsMutable {
 		//11.toString()
 		sb.toString();
 		System.out.println(sb.getClass());
+		
+		sb.setCharAt(0, 'D');
+		System.out.println(sb);
+//		System.out.print(sb.setCharAt(6, 'c'));
+		
+		sb.replace(7, 15, "Dasaratha");
+		System.out.println(sb);
+		
+		
 		
 	}
 
