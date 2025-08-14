@@ -111,7 +111,7 @@ public class Quiz {
                             moneyown = 0;
                         } else if (i <= 6) {
                             moneyown = mu5;
-                        } else {
+                        } else { 
                             moneyown = mu7;
                         }
         			    System.out.println("\u001B[35m"+name+" Money you take home: rs." + moneyown + "\u001B[0m");
