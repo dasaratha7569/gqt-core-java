@@ -1,7 +1,6 @@
 package com.gqt.corejava.CVOperators;
 import java.util.Scanner;
 public class CompundInt {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -17,7 +16,5 @@ public class CompundInt {
         double CI=A-p;
         System.out.println("Compound Interrest is:"+CI);
         sc.close();
-
 	}
-
 }

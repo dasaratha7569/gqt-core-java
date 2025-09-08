@@ -1,7 +1,6 @@
-package com.gqt.corejava.staticsegment;
+package com.gqt.corejava.CVintroduction;
 
-public class SumEven {
-
+public class SumEvenNumbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int sum=0;

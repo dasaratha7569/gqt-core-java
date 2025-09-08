@@ -1,9 +1,6 @@
 package com.gqt.corejava.CVOperators;
-
 import java.util.Scanner;
-
 public class PosNegZe {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc= new Scanner(System.in);
@@ -19,5 +16,4 @@ public class PosNegZe {
 			System.out.println("Number is a zero..");
 		}
 	}
-
 }

@@ -6,11 +6,9 @@ public class PalindromeOrNotUsiRecursion {
             return rev;
         return reverse(num / 10, rev * 10 + num % 10);
     }
-
     static boolean isPalindrome(int num) {
         return num == reverse(num, 0);
     }
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc= new Scanner(System.in);
@@ -20,7 +18,6 @@ public class PalindromeOrNotUsiRecursion {
             System.out.println(n + " is a palindrome");
         else
             System.out.println(n + " is not a palindrome");
-
 	}
 
 }

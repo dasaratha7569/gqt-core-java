@@ -1,7 +1,5 @@
 package com.gqt.corejava.CVOperators;
-
 import java.util.Scanner;
-
 public class PowerNumber {
 	static int power(int base,int power) {
 		if(power==0) return 1;
@@ -17,5 +15,4 @@ public class PowerNumber {
 		System.out.println("The power is: "+power(base,pow));
 		sc.close();
 	}
-
 }

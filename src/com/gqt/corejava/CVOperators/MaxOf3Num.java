@@ -1,9 +1,7 @@
 package com.gqt.corejava.CVOperators;
 import java.util.Scanner;
 public class MaxOf3Num {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the three values: ");
 		int a=sc.nextInt();
@@ -19,5 +17,4 @@ public class MaxOf3Num {
 			System.out.println(c+" is a maximum number among three....");
 		}
 	}
-
 }

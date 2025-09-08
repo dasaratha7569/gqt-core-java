@@ -1,9 +1,6 @@
 package com.gqt.corejava.CVStrings;
-
 import java.util.Scanner;
-
 public class LengthString {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);

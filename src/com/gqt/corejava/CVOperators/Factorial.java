@@ -1,7 +1,5 @@
 package com.gqt.corejava.CVOperators;
-
 import java.util.Scanner;
-
 public class Factorial {
 	static int fact(int n) {
 		if(n==0 || n==1){ 
